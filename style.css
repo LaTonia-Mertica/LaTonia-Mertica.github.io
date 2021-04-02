@@ -67,8 +67,9 @@ p {
 .credits {
 	position: absolute;
 	bottom: 10px;
-	padding-left: 25px;
+	padding-left: 500px;
 	opacity: 67%;
+	text-align: center;
 }
 
 
