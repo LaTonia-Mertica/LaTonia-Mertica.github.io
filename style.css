@@ -7,35 +7,32 @@ body {
 .fancy-text {
 	font-family: "Lemon Tuesday", sans-serif;
 	display: inline-block;
-	padding-left: 10px;
+	color: #c8c4bd;
+	text-shadow: 1px 2px black;
+	
 }
 
 p {
     line-height: 0px;
+	font-weight: bold;
 }
 
-.container-fluid {
-	max-width: 5%;
-	align-content: right;
-	margin-top: 0;
-	
+.main-col {
+	float: left;
+	width: 90%;
 }
 
-#socials,
-#rightCol {
-	position: absolute right 0;
-	margin-right: 0; 
-	margin-left: auto;
-	margin-top: 0;
-	padding-top: 0;
-	border-right: 1px solid gray;
-    min-height: 100vh;
+.sidebar-col {
+	float: right;
+	width: 5%;
+	padding-left: 90%;
+	margin-top: 25px;
+	position: absolute;
 }
 
 .img-bkgrd {
 	height: 100vh;
 	width: 100vw;
-	position: absolute;
 	background-size: cover;
 	background-position: 50% 50%;
 	background-image: url("blue-bkgrd.jpg");
@@ -43,15 +40,13 @@ p {
 
 .overlay {
 	opacity: 67%;
-	/*position: absolute;*/
+	/*position: absolute;
+	top: 0;
+	left: 0; */
 	height: 100%;
 	width: 100%;
-	/*top: 0;
-	left: 0;*/
 	background: #5ce1e6;
-	color: 545454;
 	display: flex;
-	/*align-items: center;*/
 	justify-content: center;
 	flex-direction: column;
 }
@@ -69,11 +64,12 @@ p {
 	padding-left: 20px;
 }
 
-
-
-
-
-
+.credits {
+	position: absolute;
+	bottom: 10px;
+	padding-left: 25px;
+	opacity: 67%;
+}
 
 
 
