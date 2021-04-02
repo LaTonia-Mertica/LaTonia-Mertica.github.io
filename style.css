@@ -4,27 +4,29 @@ body {
 	overflow-x: hidden;
 }
 
-.big-image {
+.img-bkgrd {
 	height: 100vh;
 	width: 100vw;
 	position: relative;
 	background-size: cover;
 	background-position: 50% 50%;
-	background-image: url("background.jpg");
+	background-image: url("blue-bkgrd.jpg");
 }
 
 .overlay {
+	opacity: 67%;
 	position: absolute;
 	height: 100%;
 	width: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.65);
+	background: #5ce1e6;
 	color: white;
 	display: flex;
 	/*align-items: center;*/
 	justify-content: center;
 	flex-direction: column;
+	
 }
 
 .overlay h1 {
