@@ -14,10 +14,28 @@ p {
     line-height: 0px;
 }
 
+.container-fluid {
+	max-width: 5%;
+	align-content: right;
+	margin-top: 0;
+	
+}
+
+#socials,
+#rightCol {
+	position: absolute right 0;
+	margin-right: 0; 
+	margin-left: auto;
+	margin-top: 0;
+	padding-top: 0;
+	border-right: 1px solid gray;
+    min-height: 100vh;
+}
+
 .img-bkgrd {
 	height: 100vh;
 	width: 100vw;
-	position: relative;
+	position: absolute;
 	background-size: cover;
 	background-position: 50% 50%;
 	background-image: url("blue-bkgrd.jpg");
@@ -25,18 +43,17 @@ p {
 
 .overlay {
 	opacity: 67%;
-	position: absolute;
+	/*position: absolute;*/
 	height: 100%;
 	width: 100%;
-	top: 0;
-	left: 0;
+	/*top: 0;
+	left: 0;*/
 	background: #5ce1e6;
-	color: white;
+	color: 545454;
 	display: flex;
 	/*align-items: center;*/
 	justify-content: center;
 	flex-direction: column;
-	
 }
 
 .overlay h1 {
@@ -51,6 +68,14 @@ p {
 	padding-top: 10px;
 	padding-left: 20px;
 }
+
+
+
+
+
+
+
+
 
 /*#vids {*/
 /*	display: flex;*/
