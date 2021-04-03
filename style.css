@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	font-family: "Glacial Indifference", sans-serif;
 	overflow-x: hidden;
+	border-bottom: 1200px solid black;
 }
 
 .fancy-text {
@@ -72,7 +73,32 @@ p {
 	text-align: center;
 }
 
+footer > #footer-details {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	position: absolute;
+	margin-top: 67%;
+	padding-left: 478px;
+	text-align: center;
+	opacity: 97%;	
+}
 
+.notbold {
+	font-weight: normal;
+}
+
+#lmdev-logo {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	position: absolute;
+	margin-top: 57%;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 500px;
+}
 
 /*#vids {*/
 /*	display: flex;*/
