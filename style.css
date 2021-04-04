@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	font-family: "Glacial Indifference", sans-serif;
 	overflow-x: hidden;
-	border-bottom: 1200px solid black;
+	border-bottom: 1200px solid white;
 }
 
 .fancy-text {
@@ -74,7 +74,7 @@ p {
 }
 
 footer > #footer-details {
-	color: white;
+	color: black;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
