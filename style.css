@@ -22,7 +22,7 @@ p {
   width: 90%;
   border: 7px solid red;
 }
-
+/*
 .sidebar-col {
   float: right;
   width: 5%;
@@ -30,13 +30,13 @@ p {
   margin-top: 25px;
   position: absolute;
 }
-
+*/
 .img-bkgrd {
   height: 100vh;
   width: 100vw;
   background-size: cover;
   background-position: 50% 50%;
-  background-image: url("blue-bkgrd.jpg");
+  background-image: url("images/blue-bkgrd.jpg");
 }
 
 .overlay {
