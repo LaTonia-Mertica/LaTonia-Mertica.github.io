@@ -17,18 +17,13 @@ p {
   font-weight: bold;
 }
 
-.main-col {
-  float: left;
-  width: 90%;
-  border: 7px solid red;
-}
-
 #socials {
   width: 4.4em;
   float: right;
   position: relative;
   margin-top: 25px;
   margin-right: 25px;
+  z-index: 44;
 }
 
 .img-bkgrd {
@@ -65,32 +60,22 @@ p {
   padding-left: 20px;
 }
 
-.credits {
-  position: absolute;
-  bottom: 10px;
-  padding-left: 500px;
-  opacity: 67%;
-  text-align: center;
-}
-
 h2 {
   font-size: small;
   text-align: center;
 }
 
 #lmdev-logo {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  position: absolute;
-
+  text-align: center;
+  margin-top: 15px;
   /*padding-left: 500px;*/
 }
 
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.credits {
+  margin-top: 17px;
+  bottom: 20px;
+  opacity: 67%;
+  text-align: center;
 }
 
 footer > #footer-details {
