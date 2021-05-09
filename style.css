@@ -5,10 +5,15 @@ body {
   border-bottom: 1200px solid white;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 #name-title {
   margin-left: 50px;
   font-size: 507%;
-  padding-top: 407px;
+  vertical-align: middle;
+  /*padding-top: 407px;*/
 }
 /*
 .fs-dev {
@@ -22,13 +27,15 @@ body {
   color: #c8c4bd;
   text-shadow: 1px 2px black;
   font-size: 507%;
-  padding-top: 407px;
+  vertical-align: middle;
+  /*padding-top: 407px;*/
 }
 
 #fs-dev {
   margin-left: 50px;
   font-size: 387%;
   margin-top: 10px;
+  vertical-align: middle;
 }
 
 p {
@@ -37,13 +44,26 @@ p {
 }
 
 #socials {
-  z-index: 44;
+  /*z-index: 44;*/
   width: 4.4em;
   float: right;
   position: relative;
   margin-right: 50px;
   /*padding-bottom: 400px;*/
-  vertical-align: middle;
+  /*vertical-align: middle;*/
+}
+
+#link-connect {
+  size: 1.3em;
+  margin-right: 50px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+#port-cart {
+  width: 3.4em;
+  margin-right: 50px;
+  margin-bottom: 5px;
 }
 
 .img-bkgrd {
