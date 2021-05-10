@@ -2,68 +2,32 @@ body {
   margin: 0;
   font-family: "Glacial Indifference", sans-serif;
   overflow-x: hidden;
-  border-bottom: 1200px solid white;
-}
-
-.align-middle {
-  vertical-align: middle;
+  border-bottom: 87px solid white;
 }
 
 #name-title {
-  margin-left: 50px;
-  font-size: 507%;
-  vertical-align: middle;
-  /*padding-top: 407px;*/
+  margin-left: 300px;
+  font-size: 744%;
 }
-/*
-.fs-dev {
-  margin-left: 50px;
-  font-size: 2.7em;
-}
-*/
+
 .fancy-text {
   font-family: "Lemon Tuesday", sans-serif;
-  display: inline-block;
   color: #c8c4bd;
-  text-shadow: 1px 2px black;
-  font-size: 507%;
-  vertical-align: middle;
-  /*padding-top: 407px;*/
+  text-shadow: 3px 4px black;
+}
+
+#fancy-more {
+  font-size: 117px;
 }
 
 #fs-dev {
-  margin-left: 50px;
-  font-size: 387%;
-  margin-top: 10px;
-  vertical-align: middle;
+  margin-left: 300px;
+  font-size: 307%;
 }
 
 p {
   line-height: 0px;
   font-weight: bold;
-}
-
-#socials {
-  /*z-index: 44;*/
-  width: 4.4em;
-  float: right;
-  position: relative;
-  margin-right: 50px;
-  /*padding-bottom: 400px;*/
-  /*vertical-align: middle;*/
-}
-
-#link-connect {
-  size: 1.3em;
-  margin-right: 50px;
-  margin-top: 4px;
-  margin-bottom: 5px;
-}
-
-#port-cart {
-  width: 3.4em;
-  margin-right: 50px;
-  margin-bottom: 5px;
 }
 
 .img-bkgrd {
@@ -76,9 +40,6 @@ p {
 
 .overlay {
   opacity: 67%;
-  /*position: absolute;
-	top: 0;
-	left: 0; */
   height: 100%;
   width: 100%;
   background: #5ce1e6;
@@ -100,6 +61,19 @@ p {
   padding-left: 20px;
 }
 
+#socials {
+  position: fixed;
+
+  /* filter: invert();*/
+  margin-left: 75px;
+  margin-top: 44px;
+  display: inline-block;
+}
+#link-connect,
+#port-cart {
+  padding-bottom: 10px;
+}
+
 h2 {
   font-size: small;
   text-align: center;
@@ -108,7 +82,6 @@ h2 {
 #lmdev-logo {
   text-align: center;
   margin-top: 15px;
-  /*padding-left: 500px;*/
 }
 
 .credits {
@@ -135,15 +108,3 @@ h3 {
   font-size: small;
   text-align: center;
 }
-
-/*#vids {*/
-/*	display: flex;*/
-/*	flex-direction: column;*/
-/*	justify-content: center;*/
-/*	align-items: center;*/
-/*	margin: 60px;*/
-/*}*/
-
-/*#vids a:first-of-type {*/
-/*	margin-bottom: 5px;*/
-/*}*/
