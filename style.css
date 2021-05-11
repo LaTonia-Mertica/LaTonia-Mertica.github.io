@@ -84,7 +84,8 @@ h2 {
   margin-top: 15px;
 }
 
-.credits {
+.credits,
+#credits {
   margin-top: 17px;
   bottom: 20px;
   opacity: 67%;
