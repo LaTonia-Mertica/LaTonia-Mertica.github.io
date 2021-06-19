@@ -74,6 +74,10 @@ p {
   padding-bottom: 10px;
 }
 
+#link-connect {
+  filter: brightness(0);
+}
+
 h1 {
   font-size: small;
   text-align: center;
@@ -92,20 +96,23 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: small;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
 footer > #footer-details {
   color: black;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  text-align: center;
   opacity: 97%;
 }
 
 .notbold {
   font-weight: normal;
-}
-
-h2 {
-  font-size: small;
-  text-align: center;
 }
