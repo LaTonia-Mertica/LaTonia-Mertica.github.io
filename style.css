@@ -116,3 +116,7 @@ footer > #footer-details {
 .notbold {
   font-weight: normal;
 }
+
+.pronunciation {
+  font-style: italic;
+}
