@@ -5,9 +5,36 @@ body {
   border-bottom: 87px solid white;
 }
 
+#socials {
+  position: fixed;
+
+  /* filter: invert();*/
+  margin-left: 75px;
+  margin-top: 44px;
+  display: inline-block;
+
+  z-index: 1000;
+}
+
+#link-connect,
+#port-cart {
+  padding-bottom: 10px;
+}
+
+#link-connect {
+  filter: brightness(0);
+}
+
 #name-title {
-  margin-left: 300px;
+  margin-left: 44px;
+  position: relative;
+
+  z-index: 1003;
+}
+
+#firstFirstName {
   font-size: 744%;
+  color: #545454;
 }
 
 .fancy-text {
@@ -21,13 +48,10 @@ body {
 }
 
 #fs-dev {
-  margin-left: 300px;
   font-size: 307%;
-}
-
-p {
-  line-height: 0px;
-  font-weight: bold;
+  color: black;
+  margin-top: 13px;
+  margin-bottom: 0%;
 }
 
 .img-bkgrd {
@@ -61,26 +85,16 @@ p {
   padding-left: 20px;
 }
 
-#socials {
-  position: fixed;
-
-  /* filter: invert();*/
-  margin-left: 75px;
-  margin-top: 44px;
-  display: inline-block;
-}
-#link-connect,
-#port-cart {
-  padding-bottom: 10px;
-}
-
-#link-connect {
-  filter: brightness(0);
-}
-
 h1 {
   font-size: small;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #fs-dev {
+    margin-left: 0;
+    font-size: 207%;
+  }
 }
 
 #lmdev-logo {
@@ -94,6 +108,11 @@ h1 {
   bottom: 20px;
   opacity: 67%;
   text-align: center;
+}
+
+p {
+  line-height: 0px;
+  font-weight: bold;
 }
 
 h2 {
@@ -119,4 +138,12 @@ footer > #footer-details {
 
 .pronunciation {
   font-style: italic;
+}
+
+#bizEmail {
+  color: #545454;
+}
+
+#bizEmail:hover {
+  color: #5ce1e6;
 }
