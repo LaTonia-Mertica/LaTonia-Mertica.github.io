@@ -1,16 +1,11 @@
 @font-face {
+  font-family: "Glacial Indifference";
+  src: url(fonts/GlacialIndifference-Regular.otf) format("otf");
+}
+
+@font-face {
   font-family: "Lemon Tuesday";
-  src: url("//db.onlinewebfonts.com/t/2a895939d05d9433ce269cd6870ab1dc.eot");
-  src: url("//db.onlinewebfonts.com/t/2a895939d05d9433ce269cd6870ab1dc.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/2a895939d05d9433ce269cd6870ab1dc.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/2a895939d05d9433ce269cd6870ab1dc.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/2a895939d05d9433ce269cd6870ab1dc.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/2a895939d05d9433ce269cd6870ab1dc.svg#Lemon Tuesday")
-      format("svg");
+  src: url(fonts/Lemon\ Tuesday.otf) format(otf);
 }
 
 body {
