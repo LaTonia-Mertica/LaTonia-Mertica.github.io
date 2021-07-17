@@ -1,16 +1,18 @@
-@font-face {
+/* @font-face {
   font-family: "Glacial Indifference";
-  src: url(fonts/GlacialIndifference-Regular.otf) format("otf");
+  src: url(fonts/GlacialIndifference-Regular.otf);
+  src: url(fonts/GlacialIndifference-Bold.otf);
 }
 
 @font-face {
   font-family: "Lemon Tuesday";
-  src: url(fonts/Lemon\ Tuesday.otf) format(otf);
-}
+  src: url(fonts/Lemon\ Tuesday.otf);
+} */
 
 body {
+  font-family: "Glacial Indifference";
+
   margin: 0;
-  font-family: "Glacial Indifference", sans-serif;
   overflow-x: hidden;
   border-bottom: 87px solid white;
 }
@@ -49,7 +51,7 @@ body {
 }
 
 .fancy-text {
-  font-family: "Lemon Tuesday", sans-serif;
+  font-family: "Lemon Tuesday" !important;
   color: #c8c4bd;
   text-shadow: 3px 4px black;
 }
@@ -139,6 +141,7 @@ footer > #footer-details {
 
 #bizEmail {
   color: black;
+  text-decoration: none !important;
 }
 
 #bizEmail:hover {
