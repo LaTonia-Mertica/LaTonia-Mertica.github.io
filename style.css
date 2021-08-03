@@ -97,7 +97,7 @@ h1 {
   text-align: center;
 }
 
-#featureRowDiv {
+/* #featureRowDiv {
   padding-top: 22px;
   padding-bottom: 22px;
   background-color: #360836;
@@ -107,7 +107,7 @@ h1 {
   color: #5ce1e6;
   font-size: 22px;
   text-decoration: none;
-}
+} */
 
 #lmdev-logo {
   text-align: center;
@@ -116,7 +116,6 @@ h1 {
 
 .credits,
 #credits {
-  color: #c8c4bd;
   font-size: smaller;
 
   margin-top: 17px;
