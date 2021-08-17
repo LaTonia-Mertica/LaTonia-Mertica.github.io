@@ -97,6 +97,10 @@ body {
   padding: 67px;
 }
 
+div#featureRow > div > p {
+  color: #5ce1e6;
+}
+
 h1 {
   font-size: small;
   text-align: center;
