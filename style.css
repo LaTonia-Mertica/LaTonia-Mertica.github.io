@@ -93,9 +93,8 @@ body {
 }
 
 #featureContainer {
-  border: 3px solid green;
-  background-color: #545454;
-  z-index: 6;
+  background-color: #360836;
+  padding: 44px;
 }
 
 h1 {
