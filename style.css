@@ -92,22 +92,16 @@ body {
   flex-direction: column;
 }
 
+#featureContainer {
+  border: 3px solid green;
+  background-color: #545454;
+  z-index: 6;
+}
+
 h1 {
   font-size: small;
   text-align: center;
 }
-
-/* #featureRowDiv {
-  padding-top: 22px;
-  padding-bottom: 22px;
-  background-color: #360836;
-}
-
-#featureRow {
-  color: #5ce1e6;
-  font-size: 22px;
-  text-decoration: none;
-} */
 
 #lmdev-logo {
   text-align: center;
