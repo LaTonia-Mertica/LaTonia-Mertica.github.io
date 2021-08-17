@@ -98,7 +98,7 @@ body {
 }
 
 p#featureTitles {
-  color: #5ce1e6;
+  color: #5ce1e6 !important;
 }
 
 h1 {
