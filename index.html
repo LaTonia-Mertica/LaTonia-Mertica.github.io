@@ -52,14 +52,20 @@
 
     <link rel="stylesheet" href="normalize.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+      type="text/css"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <main class="container">
-      <div class="feature col-lg-8">
-        <div class="container row" id="socials">
-          <div class="col" id="fb-linked">
+      <div class="feature">
+        <div class="container" id="socials">
+          <div id="fb-linked">
             <a href="https://www.facebook.com/communicationoptimists/">
               <img
                 src="images/fb-msgr.svg"
@@ -70,7 +76,7 @@
             </a>
           </div>
 
-          <div class="col" id="fb-linked">
+          <div id="fb-linked">
             <a
               href="http://linkedin.com/company/latonia-mertica-communications-creatives-specialist"
             >
@@ -83,7 +89,7 @@
             </a>
           </div>
 
-          <div class="col" id="link-connect">
+          <div id="link-connect">
             <a href="https://home.latoniamertica.com/latoniamertica">
               <img
                 src="images/www-globe.png"
@@ -94,7 +100,7 @@
             </a>
           </div>
 
-          <div class="col" id="port-cart">
+          <div id="port-cart">
             <a href="https://www.portfolio-latoniamertica.com">
               <img
                 src="images/portfolio.png"
@@ -105,7 +111,7 @@
             </a>
           </div>
 
-          <div class="col" id="port-cart">
+          <div id="port-cart">
             <a
               href="https://www.zazzle.com/store/latoniamertica?rf=238921547126612553"
             >
@@ -119,8 +125,8 @@
           </div>
         </div>
 
-        <div class="img-bkgrd">
-          <div class="img-bkgrd overlay" alt="vibrant blue background">
+        <div class="grid img-bkgrd">
+          <div class="col-xs img-bkgrd overlay" alt="vibrant blue background">
             <div style="clear: both"></div>
           </div>
         </div>
@@ -139,19 +145,21 @@
 
     <div class="container-fluid" id="featureContainer">
       <div class="row" id="featureRow">
-        <div class="col-md">
+        <div class="col-xs">
+          <p id="featureTitles" style="color: #5ce1e6"></p>
+        </div>
+        <div class="col-xs">
           <p id="featureTitles" style="color: #5ce1e6">appliances</p>
         </div>
-        <div class="w-100"></div>
-        <div class="col-md">
+        <div class="col-xs">
           <p id="featureTitles" style="color: #5ce1e6">bestsellers</p>
         </div>
       </div>
     </div>
 
     <footer class="container">
-      <div class="row" id="lmdev-logo">
-        <div class="col">
+      <div id="lmdev-logo">
+        <div>
           <img
             class="mx-auto d-block"
             src="images/lm-dev-logo.png"
@@ -161,15 +169,15 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col">
+      <div>
+        <div>
           <h2 class="credits">CREDITS<br /></h2>
           <p id="credits">backdropImage Pexels/Zaksheuskaya</p>
         </div>
         <br />
 
-        <div class="row center" id="footer-details">
-          <div class="col">
+        <div class="center" id="footer-details">
+          <div>
             <h3>
               <span class="notbold">
                 <span id="firstNameInFooter">La'Tonia Mertica</span><br />

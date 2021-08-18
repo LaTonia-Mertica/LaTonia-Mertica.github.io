@@ -77,7 +77,8 @@ body {
 .img-bkgrd {
   height: 100vh;
   width: 100vw;
-  background-size: cover;
+  /* position: relative; */
+  background-size: cover !important;
   background-position: 50% 50%;
   background-image: url("images/blue-bkgrd.jpg");
 }
@@ -86,10 +87,14 @@ body {
   opacity: 67%;
   height: 100%;
   width: 100%;
+  /* top: 0;
+  left: -50;
+  position: absolute; */
   background: #5ce1e6;
-  display: flex;
+  /* display: flex;
+  align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
 #featureContainer {
