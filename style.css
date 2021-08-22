@@ -41,7 +41,13 @@ body {
   padding-bottom: 10px;
 }
 
-#link-connect {
+#codesandbox {
+  margin-left: -10px;
+  margin-bottom: -10px;
+}
+
+#link-connect,
+#codesandbox {
   filter: brightness(0);
 }
 
@@ -123,6 +129,11 @@ h1 {
   line-height: 0;
 }
 
+#trelloBoardScan {
+  /* z-index: 9 !important; */
+  margin-bottom: 25px;
+}
+
 p {
   line-height: 0px;
   font-weight: bold;
@@ -168,4 +179,5 @@ footer > #footer-details {
 
 #bizEmail:hover {
   color: #5ce1e6;
+  /* z-index: 9 !important; */
 }
