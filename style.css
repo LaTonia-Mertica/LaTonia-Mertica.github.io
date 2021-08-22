@@ -128,19 +128,37 @@ p#featureTitles > a:hover {
   transform: scale(1.3px);
 }
 
+div#jessePhoto > img {
+  width: 11%;
+  border-radius: 50%;
+  border: 7.5px solid #360836;
+
+  margin-top: 44px;
+}
+
+div > p.col-xs#jesseTestimonial {
+  margin-left: 31%;
+}
+
+#jesseTestimonial {
+  font-family: "Glacial Indifference";
+  text-align: justify;
+  line-height: 15px;
+
+  max-width: 450px;
+  margin-bottom: 47px;
+}
+
+/* 
 h1 {
   font-size: small;
   text-align: center;
-}
-
-#lmdev-logo {
-  text-align: center;
-  margin-top: 44px;
-}
+} */
 
 .credits,
 #credits {
   font-size: smaller;
+  color: #545454;
 
   margin-top: 17px;
   bottom: 20px;
@@ -151,7 +169,17 @@ h1 {
 
 #trelloBoardScan {
   /* z-index: 9 !important; */
+  color: #545454;
   margin-bottom: 25px;
+}
+
+#lmdev-logo {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+
+  border-top: 1px solid #5ce1e6;
+  padding-top: 25px;
 }
 
 p {
