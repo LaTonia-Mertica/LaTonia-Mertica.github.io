@@ -108,6 +108,26 @@ body {
   padding: 67px;
 }
 
+#featureRow {
+  margin-left: 15%;
+}
+
+p#featureTitles,
+p#featureTitles > a {
+  color: #5ce1e6;
+  text-decoration: none;
+}
+
+p#featureDescriptions {
+  color: #fff;
+  font-style: italic;
+  margin-top: 25px;
+}
+
+p#featureTitles > a:hover {
+  transform: scale(1.3px);
+}
+
 h1 {
   font-size: small;
   text-align: center;
