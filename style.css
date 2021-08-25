@@ -10,7 +10,7 @@
 } */
 
 body {
-  font-family: "Glacial Indifference";
+  font-family: "Glacial Indifference", sans-serif;
 
   margin: 0;
   overflow-x: hidden;
@@ -57,7 +57,7 @@ body {
 }
 
 .fancy-text {
-  font-family: "Lemon Tuesday" !important;
+  font-family: "Lemon Tuesday", "Fantasy" !important;
   color: #c8c4bd;
   text-shadow: 3px 4px black;
 }
@@ -205,6 +205,11 @@ footer > #footer-details {
 
 .notbold {
   font-weight: normal;
+}
+
+audio {
+  width: 40%;
+  margin-top: 24px;
 }
 
 #firstNameInFooter {
