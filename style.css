@@ -229,13 +229,13 @@ audio {
   font-size: small;
 }
 
-p#resume:hover {
-  color: #5ce1e6;
-}
-
 #resume {
   color: black !important;
   text-decoration: none !important;
+}
+
+p#resume:hover {
+  color: #5ce1e6 !important;
 }
 
 #bizEmail {
