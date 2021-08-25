@@ -238,6 +238,10 @@ audio {
   text-decoration: none !important;
 }
 
+#resume:hover {
+  color: #5ce1e6;
+}
+
 #bizEmail {
   color: black;
   text-decoration: none !important;
