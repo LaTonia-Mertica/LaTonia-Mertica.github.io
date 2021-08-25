@@ -226,7 +226,7 @@ audio {
 }
 
 #resume {
-  color: black;
+  color: black !important;
   text-decoration: none;
 }
 
