@@ -207,11 +207,6 @@ footer > #footer-details {
   font-weight: normal;
 }
 
-audio {
-  width: 40%;
-  margin-top: 24px;
-}
-
 #firstNameInFooter {
   font-weight: bold;
 }
@@ -223,6 +218,16 @@ audio {
 
 .pronunciation {
   font-style: italic;
+}
+
+audio {
+  width: 40%;
+  margin-top: 24px;
+}
+
+#resume {
+  color: black;
+  text-decoration: none;
 }
 
 #bizEmail {
