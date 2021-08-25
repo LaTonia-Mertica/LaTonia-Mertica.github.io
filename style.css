@@ -229,17 +229,14 @@ audio {
   font-size: small;
 }
 
-#resumeandaudio:hover {
+#resumeandaudio:hover,
+p#resume:hover {
   color: #5ce1e6;
 }
 
 #resume {
   color: black !important;
   text-decoration: none !important;
-}
-
-#resume:hover {
-  color: #5ce1e6 !important;
 }
 
 #bizEmail {
