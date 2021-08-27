@@ -225,17 +225,15 @@ audio {
   margin-top: 24px;
 }
 
-#resumeandaudio {
-  font-size: small;
-}
-
-#resume {
-  color: black !important;
-  text-decoration: none !important;
-}
-
-p#resume:hover {
+a#resumeFile:hover {
   color: #5ce1e6 !important;
+}
+
+#resumeFile,
+#audioFile {
+  font-size: small;
+  color: #545454 !important;
+  text-decoration: none !important;
 }
 
 #bizEmail {
