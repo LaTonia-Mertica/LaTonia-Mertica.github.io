@@ -129,11 +129,16 @@ p#featureTitles > a:hover {
 }
 
 div#jessePhoto > img {
-  width: 11%;
+  width: 17%;
   border-radius: 50%;
+
   border: 7.5px solid #360836;
+  background-color: #360836;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+    0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   margin-top: 44px;
+  margin-bottom: 17px;
 }
 
 div > p.col-xs#jesseTestimonial {
