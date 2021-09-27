@@ -54,6 +54,7 @@ body {
 #firstFirstName {
   font-size: 744%;
   color: #545454;
+  text-shadow: 1px 1px black;
 }
 
 .fancy-text {
@@ -164,6 +165,8 @@ h1 {
 #credits {
   font-size: smaller;
   color: #5ce1e6;
+  text-shadow: 1px 1px black;
+  letter-spacing: 1.5px;
 
   margin-top: 17px;
   bottom: 20px;
@@ -231,7 +234,9 @@ p#resume > button#resumeBtn > a {
 }
 
 #firstNameInFooter {
+  color: #5ce1e6;
   font-weight: bold;
+  text-shadow: 1px 1px black;
 }
 
 #firstNameInFooter,
@@ -241,6 +246,7 @@ p#resume > button#resumeBtn > a {
 
 .pronunciation {
   font-style: italic;
+  font-size: small;
 }
 
 audio {
