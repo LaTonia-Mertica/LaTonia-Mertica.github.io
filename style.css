@@ -163,7 +163,7 @@ h1 {
 .credits,
 #credits {
   font-size: smaller;
-  color: #545454;
+  color: #5ce1e6;
 
   margin-top: 17px;
   bottom: 20px;
@@ -181,7 +181,7 @@ h1 {
 #lmdev-logo {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 
   border-top: 1px solid #5ce1e6;
   padding-top: 25px;
@@ -206,6 +206,24 @@ footer > #footer-details {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+audio {
+  filter: invert(100%);
+  width: 200px;
+  height: 47px;
+}
+
+#resumeBtn {
+  width: 247px;
+  padding: 9px;
+  border-radius: 24px;
+  border-color: #5ce1e6;
+  background-color: lightcyan;
+}
+
+p#resume > button#resumeBtn > a {
+  font-weight: 887px;
 }
 
 .notbold {
