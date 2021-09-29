@@ -210,6 +210,9 @@ footer > #footer-details {
   flex-direction: column;
   flex-wrap: wrap;
 }
+audio::-webkit-media-controls-panel {
+  background-color: white;
+}
 
 audio {
   /* filter: invert(100%); */
