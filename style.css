@@ -212,7 +212,8 @@ footer > #footer-details {
 }
 
 audio {
-  filter: invert(100%);
+  /* filter: invert(100%); */
+  background-color: white !important;
   width: 200px;
   height: 47px;
 }
