@@ -1,4 +1,4 @@
-# LaTonia-Mertica.github.io
+# LaTonia Mertica Digital Portfolio Gateway
 
 *digital portfolio gateway created as 
 access point for various online elements 
