@@ -5,7 +5,7 @@ access point for various online elements
 fleshing out portfolio for 
 La'Tonia Mertica (luh tone yuh merr treece). ..* 
 
-###### <a href="https://www.latoniamertica.dev/" target="_blank">visit Dev Calc by La'Tonia Mertica</a>
+###### <a href="https://www.latoniamertica.dev/" target="_blank">visit digital portfolio gateway by/for La'Tonia Mertica</a>
 <br>
 
 ##### FIRST NAME: La'Tonia Mertica
