@@ -1,12 +1,15 @@
-# LaTonia Mertica Digital Portfolio Gateway
+# latoniamertica.dev Digital Portfolio Gateway
+
+###### <a href="https://www.latoniamertica.dev/" target="_blank">visit digital portfolio gateway by/for La'Tonia Mertica</a>
+<br>
 
 *digital portfolio gateway created as 
 access point for various online elements 
 fleshing out portfolio for 
 La'Tonia Mertica (luh tone yuh merr treece). ..* 
 
-###### <a href="https://www.latoniamertica.dev/" target="_blank">visit digital portfolio gateway by/for La'Tonia Mertica</a>
 <br>
+<p align="left"><img src="images/trellodigitalportfoliogateway.png" width="10%" title="latoniamertica.dev Trello Board by La'Tonia Mertica" /></p>
 
 ##### FIRST NAME: La'Tonia Mertica
 ###### note_1: pronounced *luh tone yuh merr treece*
