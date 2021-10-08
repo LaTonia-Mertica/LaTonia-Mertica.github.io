@@ -1,7 +1,6 @@
 # latoniamertica.dev Digital Portfolio Gateway
 
 ###### <a href="https://www.latoniamertica.dev/" target="_blank">visit digital portfolio gateway by/for La'Tonia Mertica</a>
-<br>
 
 *digital portfolio gateway created as 
 access point for various online elements 
