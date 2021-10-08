@@ -5,8 +5,8 @@
 *digital portfolio gateway created as 
 access point for various online elements 
 fleshing out portfolio for 
-La'Tonia Mertica (luh tone yuh merr treece). ..
-access insight into my coding journey at <a href="https://www.linkedin.com/pulse/doneweek3-working-hard-la-tonia-mertica/" target="_blank">my
+La'Tonia Mertica. .. and access insight 
+into my coding journey at <a href="https://www.linkedin.com/pulse/doneweek3-working-hard-la-tonia-mertica/" target="_blank">my
 LinkedIn blog</a>* 
 
 <br>
