@@ -9,6 +9,18 @@ La'Tonia Mertica. .. and access insight
 into my coding journey at <a href="https://www.linkedin.com/pulse/doneweek3-working-hard-la-tonia-mertica/" target="_blank">my
 LinkedIn blog</a>* 
 
+*solid exercise for intentional verbose code - image tags, inline style in image tag, title in image tag, setting urls to open in new page(s) with target value of _blank; adding audio; adding pdf, and presenting italic content in non-italic parentheses (script file)*
+<br>
+<br>
+
+**HOW WORKS**
+<br>
+click icon in left fixed bar to visit complementary online presence(s); visit code or deployed for homepage, portal, and backend of capstone project; scan QR Code to visit Trello board for planning insight; click play/pause to listen to audio clips from mock interviews conducted during Hack Upstate 'Careers in Code' full stack javascipt code/web dev bootcamp; click access resume to view; and hover for titles on most elements   
+
+**NEXT STEP**
+<br>
+1) build section of featured projects to include image, brief description, link to test code, and link to deployed, and 2) set media queries for optimized presentation on devices of various sizes from large to small
+
 <br>
 <p align="left"><img src="images/trellodigitalportfoliogateway.png" width="10%" title="latoniamertica.dev Trello Board by La'Tonia Mertica" /></p>
 
