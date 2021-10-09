@@ -3,7 +3,7 @@
 *digital portfolio gateway created as 
 access point for various online elements 
 fleshing out portfolio for 
-La'Tonia Mertica. .. and access insight 
+La'Tonia Mertica. .. access insight 
 into my coding journey at <a href="https://www.linkedin.com/pulse/doneweek3-working-hard-la-tonia-mertica/" target="_blank">my
 LinkedIn blog</a> ... solid exercise for intentional verbose code - image tags, inline style in image tag, title in image tag, setting urls to open in new page(s) with target value of _blank; adding audio; adding pdf, and presenting italic content in non-italic parentheses (script file)*
 
@@ -26,6 +26,7 @@ f) and hover for titles on most elements
 
 <br>
 <p align="left"><img src="images/trellodigitalportfoliogateway.png" width="10%" title="latoniamertica.dev Trello Board by La'Tonia Mertica" /></p>
+<br>
 
 ##### FIRST NAME: La'Tonia Mertica
 ###### note_1: pronounced *luh tone yuh merr treece*
