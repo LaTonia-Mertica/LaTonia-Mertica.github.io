@@ -1,7 +1,5 @@
 # latoniamertica.dev Digital Portfolio Gateway
 
-###### <a href="https://www.latoniamertica.dev/" target="_blank">visit digital portfolio gateway by/for La'Tonia Mertica</a>
-
 *digital portfolio gateway created as 
 access point for various online elements 
 fleshing out portfolio for 
@@ -13,9 +11,11 @@ LinkedIn blog</a>*
 <br>
 <br>
 
+###### <a href="https://www.latoniamertica.dev/" target="_blank">visit digital portfolio gateway by/for La'Tonia Mertica</a>
+
 **HOW WORKS**
 <br>
-click icon in left fixed bar to visit complementary online presence(s); visit code or deployed for homepage, portal, and backend of capstone project; scan QR Code to visit Trello board for planning insight; click play/pause to listen to audio clips from mock interviews conducted during Hack Upstate 'Careers in Code' full stack javascipt code/web dev bootcamp; click access resume to view; and hover for titles on most elements   
+click icon in left fixed bar to visit complementary online presence(s);<br>visit code or deployed for homepage, portal, and backend of capstone project;<br>scan QR Code to visit Trello board for planning insight;<br>click play/pause to listen to audio clips from mock interviews conducted during Hack Upstate 'Careers in Code' full stack javascipt code/web dev bootcamp;<br>click access resume to view;<br>and hover for titles on most elements   
 
 **NEXT STEP**
 <br>
