@@ -5,9 +5,7 @@ access point for various online elements
 fleshing out portfolio for 
 La'Tonia Mertica. .. and access insight 
 into my coding journey at <a href="https://www.linkedin.com/pulse/doneweek3-working-hard-la-tonia-mertica/" target="_blank">my
-LinkedIn blog</a>* 
-
-*solid exercise for intentional verbose code - image tags, inline style in image tag, title in image tag, setting urls to open in new page(s) with target value of _blank; adding audio; adding pdf, and presenting italic content in non-italic parentheses (script file)*
+LinkedIn blog</a> ... solid exercise for intentional verbose code - image tags, inline style in image tag, title in image tag, setting urls to open in new page(s) with target value of _blank; adding audio; adding pdf, and presenting italic content in non-italic parentheses (script file)*
 
 ###### <a href="https://www.latoniamertica.dev/" target="_blank">visit digital portfolio gateway by/for La'Tonia Mertica</a>
 
@@ -16,13 +14,14 @@ LinkedIn blog</a>*
 a) click icon in left fixed bar to visit complementary online presence(s);<br>
 b) visit code or deployed for homepage, portal, and backend of capstone project;<br>
 c) scan QR Code to visit Trello board for planning insight;<br>
-d) click play/pause to listen to audio clips from mock interviews conducted during Hack Upstate 'Careers in Code' full stack javascipt code/web dev bootcamp;<br>
+d) click play/pause to listen to audio clips from mock interviews<br>
+**note:** conducted during Hack Upstate 'Careers in Code' full stack javascipt code/web dev bootcamp;<br>
 e) click access resume to view;<br>
 f) and hover for titles on most elements   
 
 **NEXT STEP**
 <br>
-1. build section of featured projects to include image, brief description, link to test code, and link to deployed,<br>
+1. build section of featured projects to include image, brief description, link to test code, and link to deployed<br>
 2. set media queries for optimized presentation on devices of various sizes from large to small
 
 <br>
