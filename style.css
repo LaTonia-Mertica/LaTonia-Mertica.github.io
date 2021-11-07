@@ -105,7 +105,8 @@ body {
 }
 
 #featureContainer {
-  background-color: #360836;
+  /* background-color: #360836; */
+  background-color: black;
   padding: 67px;
 }
 
@@ -113,16 +114,49 @@ body {
   margin-left: 15%;
 }
 
+.fullWidth {
+  width: 87%;
+  border-radius: 5px;
+  border: solid 1.5px #5ce1e6;
+}
+
+.topRow {
+  margin-top: -37px;
+}
+
+.row2 {
+  margin-top: 13px;
+}
+
 p#featureTitles,
 p#featureTitles > a {
   color: #5ce1e6;
   text-decoration: none;
+  line-height: 23px;
+
+  /* margin-left: 15px; */
 }
 
 p#featureDescriptions {
   color: #fff;
+  text-align: left;
   font-style: italic;
-  margin-top: 25px;
+  margin-top: 15px;
+}
+
+p.stack {
+  line-height: 35px;
+}
+
+.stack {
+  color: white;
+}
+
+.tag {
+  background-color: #5ce1e6;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 3px;
 }
 
 p#featureTitles > a:hover {
@@ -133,8 +167,8 @@ div#jessePhoto > img {
   width: 17%;
   border-radius: 50%;
 
-  border: 7.5px solid #360836;
-  background-color: #360836;
+  border: 3.25px solid #5ce1e6;
+  background-color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
     0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -165,7 +199,7 @@ h1 {
 #credits {
   font-size: smaller;
   color: #5ce1e6;
-  text-shadow: 1px 1px black;
+  text-shadow: 0.5px 0.5px black;
   letter-spacing: 1.5px;
 
   margin-top: 17px;
@@ -191,7 +225,7 @@ h1 {
 }
 
 p {
-  line-height: 0px;
+  /* line-height: 0px; */
   font-weight: bold;
 }
 
@@ -240,7 +274,7 @@ p#resume > button#resumeBtn > a {
 #firstNameInFooter {
   color: #5ce1e6;
   font-weight: bold;
-  text-shadow: 1px 1px black;
+  text-shadow: 0.5px 0.5px black;
 }
 
 #firstNameInFooter,
