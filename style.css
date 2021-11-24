@@ -17,58 +17,37 @@ body {
   border-bottom: 87px solid white;
 }
 
-#socials {
-  position: fixed;
-
-  margin-left: 75px;
-  margin-top: 44px;
-  display: inline-block;
-
-  z-index: 7;
-}
-
 #name-title {
   position: absolute;
-  top: 60px;
-  left: 50px;
+  top: -37px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* left: 50px; */
 
-  margin-left: 177px;
-  padding-top: 177px;
-}
-
-#link-connect,
-#port-cart {
-  padding-bottom: 10px;
-}
-
-#codesandbox {
-  margin-left: -10px;
-  margin-bottom: -10px;
-}
-
-#link-connect,
-#codesandbox {
-  filter: brightness(0);
+  /* margin-left: 177px;
+  padding-top: 177px; */
 }
 
 #firstFirstName {
   font-size: 744%;
   color: #545454;
   text-shadow: 1px 1px black;
+  margin-bottom: -125px;
 }
 
 .fancy-text {
   font-family: "Lemon Tuesday", "Fantasy" !important;
   color: #c8c4bd;
   text-shadow: 3px 4px black;
+  margin-bottom: -3px;
 }
 
 #fancy-more {
-  font-size: 117px;
+  font-size: 137px;
 }
 
 #fs-dev {
-  font-size: 307%;
+  font-size: 147%;
   color: black;
   margin-top: 13px;
   margin-bottom: 0%;
@@ -82,7 +61,7 @@ body {
 }
 
 .img-bkgrd {
-  height: 100vh;
+  height: 500px;
   width: 100vw;
   /* position: relative; */
   background-size: cover !important;
@@ -92,7 +71,7 @@ body {
 
 .overlay {
   opacity: 67%;
-  height: 100%;
+  height: 500px;
   width: 100%;
   /* top: 0;
   left: -50;
@@ -104,32 +83,85 @@ body {
   flex-direction: column; */
 }
 
-#featureContainer {
+#socials {
+  /* position: fixed; */
+
+  /* margin-left: 75px;
+  margin-top: 44px; */
+  /* display: inline-block; */
+
+  margin-top: 13px;
+  z-index: 7;
+}
+
+#codesandbox,
+#fb-linked,
+#github,
+#link-connect,
+#port-cart {
+  display: inline;
+}
+
+#codesandbox > a,
+#fb-linked > a,
+#github > a,
+#link-connect > a,
+#port-cart > a {
+  text-decoration: none;
+}
+
+/* 
+#link-connect,
+#port-cart {
+  padding-bottom: 10px;
+} */
+
+/*
+#codesandbox {
+  margin-left: -10px;
+  margin-bottom: -10px;
+} */
+
+#link-connect,
+#codesandbox {
+  filter: brightness(0);
+}
+
+.featureContainer {
   /* background-color: #360836; */
   background-color: black;
   padding: 67px;
-}
-
-#featureRow {
-  margin-left: 15%;
+  margin-top: 3px;
 }
 
 .fullWidth {
-  width: 87%;
+  width: 100%;
   border-radius: 5px;
   border: solid 1.5px #5ce1e6;
+  background-color: black;
 }
 
-.topRow {
-  margin-top: -37px;
+.imgWrapper {
+  text-align: center;
 }
 
-.row2 {
-  margin-top: 13px;
+.cardStyling {
+  border: solid 1.15px #5ce1e6;
+  padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+  background: black;
 }
 
-p#featureTitles,
-p#featureTitles > a {
+.cardStyling:hover {
+  transform: scale(1.015);
+  box-shadow: 1px 1px 1px #5ce1e6;
+}
+
+p.featureTitles,
+p.featureTitles > a {
   color: #5ce1e6;
   text-decoration: none;
   line-height: 23px;
@@ -137,7 +169,7 @@ p#featureTitles > a {
   /* margin-left: 15px; */
 }
 
-p#featureDescriptions {
+p.featureDescriptions {
   color: #fff;
   text-align: left;
   font-style: italic;
@@ -159,28 +191,62 @@ p.stack {
   margin-left: 3px;
 }
 
-p#featureTitles > a:hover {
+p.featureTitles > a:hover {
   transform: scale(1.3px);
 }
 
+#rowCenter {
+  border: dotted 1.15px #5ce1e6;
+}
+
+.centerFeatureText,
+p.centerFeatureText {
+  text-align: center;
+}
+
+/* div.container-fluid.featuredContainer {
+  padding: 0;
+} */
+
 div#jessePhoto > img {
-  width: 17%;
+  width: 44%;
   border-radius: 50%;
 
-  border: 3.25px solid #5ce1e6;
+  border: 3.25px solid black;
   background-color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
     0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   margin-top: 44px;
-  margin-bottom: 17px;
+  margin-left: 27%;
 }
 
-div > p.col-xs#jesseTestimonial {
+div#alannaPhoto > img {
+  width: 34%;
+  border-radius: 50%;
+
+  border: 3.25px solid black;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),
+    0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  margin-top: 44px;
   margin-left: 31%;
+  margin-bottom: 15px;
 }
 
-#jesseTestimonial {
+div > p.col-xs#jesseTestimonial,
+div > p.col-xs#alannaTestimonial {
+  margin-left: 20%;
+}
+
+#jesseTitle,
+#alannaTitle {
+  text-align: center;
+}
+
+#jesseTestimonial,
+#alannaTestimonial {
   font-family: "Glacial Indifference";
   text-align: justify;
   line-height: 15px;
@@ -188,6 +254,24 @@ div > p.col-xs#jesseTestimonial {
   max-width: 450px;
   margin-bottom: 47px;
 }
+
+/* 
+div > p#alannaTestimonial {
+  margin-top: 40px;
+} */
+
+/* div > h2#alannaNameTitle {
+  margin-top: -23px;
+} */
+
+/* div#alannaTitle > h2 {
+  margin-bottom: -7px;
+} */
+
+/* div#alannaPhoto > img {
+  margin-top: 34px;
+  margin-bottom: -13px;
+} */
 
 /* 
 h1 {
@@ -199,7 +283,8 @@ h1 {
 #credits {
   font-size: smaller;
   color: #5ce1e6;
-  text-shadow: 0.5px 0.5px black;
+  /* color: #360836; */
+  /* text-shadow: 0.5px 0.5px black; */
   letter-spacing: 1.5px;
 
   margin-top: 17px;
