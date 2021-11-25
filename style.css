@@ -45,7 +45,6 @@ body {
 #fs-dev {
   font-size: 113%;
   color: black;
-  text-shadow: 0.075px 1.05px white;
   margin-top: 13px;
   margin-bottom: 0%;
 }
@@ -306,7 +305,7 @@ p#resume > button#resumeBtn > a {
 #firstNameInFooter {
   color: #5ce1e6;
   font-weight: bold;
-  text-shadow: 0.5px 0.5px black;
+  font-size: larger;
 }
 
 #firstNameInFooter,
