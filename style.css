@@ -183,7 +183,10 @@ div#jessePhoto > img {
     0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   margin-top: 44px;
-  margin-left: 27%;
+  /* margin-left: 27%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div#alannaPhoto > img {
@@ -197,13 +200,19 @@ div#alannaPhoto > img {
     0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   margin-top: 44px;
-  margin-left: 31%;
+  /* margin-left: 31%; */
   margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div > p.col-xs#jesseTestimonial,
 div > p.col-xs#alannaTestimonial {
-  margin-left: 20%;
+  /* margin-left: 20%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #jesseTitle,
@@ -219,6 +228,10 @@ div > p.col-xs#alannaTestimonial {
 
   max-width: 450px;
   margin-bottom: 47px;
+}
+
+#responseByLM {
+  font-style: italic;
 }
 
 .credits,
