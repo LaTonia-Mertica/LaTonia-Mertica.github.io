@@ -1,4 +1,5 @@
 # latoniamertica.dev Digital Portfolio Gateway
+## gateway to code life culture
 
 *digital portfolio gateway created as 
 access point for various online elements 
