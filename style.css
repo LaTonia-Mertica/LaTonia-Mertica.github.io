@@ -350,6 +350,24 @@ a#resumeFile:hover {
 }
 
 /* MEDIA QUERIES COMPLETE TO SCREEN SIZE 515 */
+@media only screen and (max-width: 1023px) {
+  img#alannaPhoto.alannaDiv {
+    width: 150px;
+    margin-left: 257px;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  img#alannaPhoto.alannaDiv {
+    width: 150px;
+    margin-left: 247px;
+  }
+}
+@media only screen and (max-width: 938px) {
+  img#alannaPhoto.alannaDiv {
+    width: 150px;
+    margin-left: 177px;
+  }
+}
 @media only screen and (max-width: 925px) {
   #fs-dev {
     display: none;
@@ -365,6 +383,16 @@ a#resumeFile:hover {
     margin-left: 117px;
   }
 }
+@media only screen and (max-width: 847px) {
+  img#jessePhoto.jesseDiv,
+  img#alannaPhoto.alannaDiv {
+    display: none;
+  }
+  h2#alannaTitle,
+  h2#jesseTitle {
+    margin-top: 44px;
+  }
+}
 @media only screen and (max-width: 765px) {
   div.row.row1.featureRow,
   div.row.row2.featureRow {
@@ -373,14 +401,14 @@ a#resumeFile:hover {
   p.featureTitles.centerFeatureText {
     margin-left: 225px;
   }
-  img#jessePhoto.jesseDiv {
+  /* img#jessePhoto.jesseDiv {
     width: 185px;
     margin-left: 75px;
   }
   img#alannaPhoto.alannaDiv {
     width: 135px;
     margin-left: 197px;
-  }
+  } */
 }
 @media only screen and (max-width: 600px) {
   #fs-dev {
@@ -388,15 +416,18 @@ a#resumeFile:hover {
     font-size: 207%;
   }
   #fs-dev,
-  img#alannaPhoto.alannaDiv,
+  /* img#alannaPhoto.alannaDiv, */
   h2#alannaTitle,
   p#alannaTestimonial.col-xs.notbold {
     display: none;
   }
-  img#jessePhoto.jesseDiv,
+  /* img#jessePhoto.jesseDiv, */
   h2#jesseTitle,
   p#jesseTestimonial.col-xs.notbold {
     display: none;
+  }
+  h2.credits {
+    margin-top: 67px;
   }
 }
 @media only screen and (max-width: 515px) {
