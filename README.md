@@ -1,14 +1,19 @@
 # latoniamertica.dev Digital Portfolio Gateway
+
 ## gateway to code life culture
 
-*digital portfolio gateway created as 
-access point for various online elements 
-fleshing out portfolio for 
-La'Tonia Mertica. .. access insight 
+_digital portfolio gateway created as
+access point for various online elements
+fleshing out portfolio for
+La'Tonia Mertica. .. access insight
 into my coding journey at <a href="https://www.linkedin.com/pulse/doneweek3-working-hard-la-tonia-mertica/" target="_blank">my
-LinkedIn blog</a> ... solid exercise for intentional verbose code - image tags, inline style in image tag, title in image tag, setting urls to open in new page(s) with target value of _blank; adding audio; adding pdf, and presenting italic content in non-italic parentheses (script file)*
+LinkedIn blog</a> ... solid exercise for intentional verbose code - image tags, inline style in image tag, title in image tag, setting urls to open in new page(s) with target value of \_blank; adding audio; adding pdf, and presenting italic content in non-italic parentheses (script file)_
 
-###### <a href="https://www.latoniamertica.dev/" target="_blank">visit digital portfolio gateway by/for La'Tonia Mertica</a>
+###### <a href="https://www.latoniamertica.dev/" target="_blank">visit digital portfolio gateway by/for La'Tonia Mertica</a><br>
+
+###### <a href="https://hackupstate.medium.com/student-spotlight-latonia-mertica-d0ad92c94209" target="_blank">visit feature by Hack Upstate _Careers in Code_ for insight on La'Tonia Mertica</a><br>
+
+<br>
 
 **HOW WORKS**
 <br>
@@ -18,10 +23,11 @@ c) scan QR Code to visit Trello board for planning insight;<br>
 d) click play/pause to listen to audio clips from mock interviews<br>
 **note:** conducted during Hack Upstate 'Careers in Code' full stack javascipt code/web dev bootcamp;<br>
 e) click access resume to view;<br>
-f) and hover for titles on most elements   
+f) and hover for titles on most elements
 
 **NEXT STEP**
 <br>
+
 1. build section of featured projects to include image, brief description, link to test code, and link to deployed<br>
 2. set media queries for optimized presentation on devices of various sizes from large to small
 
@@ -30,10 +36,13 @@ f) and hover for titles on most elements
 <br>
 
 ##### FIRST NAME: La'Tonia Mertica
-###### note_1: pronounced *luh tone yuh merr treece*
+
+###### note*1: pronounced \_luh tone yuh merr treece*
+
 <br>
 
 ## MY BACK STORY
+
 <br>
 I went into code because I saw code as a gateway to better options, informed risk-taking, and outcomes. 
 <br>

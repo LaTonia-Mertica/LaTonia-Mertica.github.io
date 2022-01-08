@@ -79,11 +79,13 @@ body {
   display: inline;
 }
 
+/* single a in code block below adding much later than others in code block; s/b able to just use a; leaving for illustration purposes */
 #codesandbox > a,
 #fb-linked > a,
 #github > a,
 #link-connect > a,
-#port-cart > a {
+#port-cart > a,
+a {
   text-decoration: none;
 }
 
@@ -247,12 +249,23 @@ div > p.col-xs#alannaTestimonial {
 
 .moreSocials {
   margin-top: 67px;
+  letter-spacing: 0.055rem;
 }
 
-div.moreSocials > a {
+.featureLMDiv {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+div.moreSocials > a,
+#lmFeature {
   text-decoration: none;
   color: #c8c4bd;
   text-shadow: 0.075px 1.05px #545454;
+}
+
+#lmFeature {
+  letter-spacing: 0.055rem;
 }
 
 #lmdev-logo {
