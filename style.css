@@ -238,7 +238,7 @@ div > p.col-xs#alannaTestimonial {
 }
 
 .credits,
-#credits {
+.creditsText {
   font-size: smaller;
   color: #5ce1e6;
 
@@ -504,5 +504,24 @@ a#resumeFile:hover {
   }
   span.notbold {
     font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  p#credits {
+    visibility: hidden;
+  }
+  .creditsText {
+    visibility: hidden;
+  }
+  div#trelloBoardScan {
+    margin-top: -24px;
+    margin-bottom: -84px;
+  }
+  div.center.moreSocials {
+    visibility: hidden;
+  }
+  h2.credits {
+    visibility: hidden;
   }
 }
