@@ -233,6 +233,10 @@ div > p.col-xs#alannaTestimonial {
   font-style: italic;
 }
 
+.testimonialLinks {
+  color: #5ce1e6;
+}
+
 .credits,
 #credits {
   font-size: smaller;
