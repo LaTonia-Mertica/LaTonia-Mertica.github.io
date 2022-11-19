@@ -156,6 +156,10 @@ p.centerFeatureText {
   text-align: center;
 }
 
+summary {
+  color: #fff;
+}
+
 div#jessePhoto > img {
   width: 44%;
   /* border-radius: 1.5%; */
