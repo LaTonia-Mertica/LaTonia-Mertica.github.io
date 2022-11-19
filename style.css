@@ -296,6 +296,10 @@ h2 {
   text-align: center;
 }
 
+.audioTracks {
+  margin-bottom: -1.25rem;
+}
+
 footer > #footer-details {
   color: black;
   display: flex;
