@@ -16,14 +16,19 @@ body {
 #firstFirstName {
   font-size: 744%;
   color: #545454;
+  font-family: "Archivo Black";
   text-shadow: 0.063rem 0.063rem black;
   margin-bottom: -7.813rem;
 }
 
+#fancy-more.fancy-text {
+  font-family: "WindSong";
+}
+
 .fancy-text {
-  font-family: "Lemon Tuesday", "Fantasy" !important;
   color: #c8c4bd;
   text-shadow: 0.188rem 0.25rem black;
+  margin-top: 5.15rem;
   margin-bottom: -0.188rem;
 }
 
@@ -148,7 +153,7 @@ p.featureTitles > a:hover {
 }
 
 #rowCenter {
-  border: dotted 0.094rem #5ce1e6;
+  border: none;
 }
 
 .centerFeatureText,
@@ -158,6 +163,8 @@ p.centerFeatureText {
 
 summary {
   color: #fff;
+  cursor: pointer;
+  text-align: center;
 }
 
 div#jessePhoto > img {
