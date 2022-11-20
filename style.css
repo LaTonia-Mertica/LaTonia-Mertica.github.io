@@ -167,6 +167,11 @@ summary {
   text-align: center;
 }
 
+.codeCandyGraphic {
+  color: #5ce1e6;
+  text-shadow: 0.063rem 0.063rem black;
+}
+
 div#jessePhoto > img {
   width: 44%;
   /* border-radius: 1.5%; */
@@ -308,6 +313,8 @@ h2 {
 }
 
 .audioTracks {
+  color: #000;
+  cursor: pointer;
   margin-bottom: -1.25rem;
 }
 
