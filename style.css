@@ -367,12 +367,17 @@ a#resumeFile:hover {
   text-decoration: none !important;
 }
 
+.linkTreeText {
+  color: #000;
+}
+
 #bizEmail {
   color: black;
   text-decoration: none !important;
 }
 
-#bizEmail:hover {
+#bizEmail:hover,
+.linkTreeText:hover {
   color: #5ce1e6;
 }
 
