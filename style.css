@@ -21,6 +21,11 @@ body {
   margin-bottom: -7.813rem;
 }
 
+.apostropheSymbol {
+  padding-right: 1.5rem;
+  font-family: "Dynalight";
+}
+
 #fancy-more.fancy-text {
   font-family: "WindSong";
 }
@@ -368,6 +373,10 @@ p#resume > button#resumeBtn > a {
 audio {
   width: 40%;
   margin-top: 1.5rem;
+}
+
+.asReadByNames {
+  font-family: "Anybody";
 }
 
 a#resumeFile:hover {
