@@ -93,7 +93,7 @@ a {
 }
 
 .featureContainer {
-  background-color: black;
+  background-color: #202124;
   padding: 4.188rem;
   margin-top: 0.188rem;
 }
@@ -102,7 +102,7 @@ a {
   width: 100%;
   border-radius: 0.313rem;
   border: solid 0.094rem #5ce1e6;
-  background-color: black;
+  background-color: #2b2d2f;
 }
 
 .imgWrapper {
@@ -114,9 +114,8 @@ a {
   padding: 0.938rem;
   margin-left: 0.938rem;
   margin-right: 0.938rem;
-  border-radius: 0.313rem;
   transition: transform 0.2s;
-  background: black;
+  background: #2b2d2f;
 }
 
 .cardStyling:hover {
@@ -170,6 +169,10 @@ summary {
   color: #fff;
   cursor: pointer;
   text-align: center;
+}
+
+video {
+  border-radius: 1.5rem;
 }
 
 .codeCandyGraphic {
@@ -317,25 +320,35 @@ h2 {
   text-align: center;
 }
 
-.audioTracks {
-  color: #000;
-  cursor: pointer;
-  margin-bottom: -1.25rem;
-}
-
 footer > #footer-details {
   color: black;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-audio::-webkit-media-controls-panel {
-  background-color: white;
+
+.audioTracks {
+  color: #000;
+  cursor: pointer;
+  margin-bottom: -1.25rem;
 }
 
 audio {
   width: 12.5rem;
   height: 2.938rem;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #545454;
+}
+
+audio::-webkit-media-controls-mute-button {
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
 }
 
 #resumeBtn {
@@ -348,6 +361,12 @@ audio {
 
 p#resume > button#resumeBtn > a {
   font-weight: 55.438rem;
+}
+
+#lmPhoto {
+  padding: 0.25rem;
+  border-radius: 50%;
+  border: #5ce1e6 solid 0.15rem;
 }
 
 .notbold {
