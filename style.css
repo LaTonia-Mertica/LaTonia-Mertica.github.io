@@ -176,8 +176,12 @@ summary {
   text-shadow: 0.063rem 0.063rem black;
 }
 
+.testimonialsDiv {
+  margin-top: 0.15rem;
+}
+
 .jesseAlannaSpaces {
-  background-color: #2b2d2f;
+  background-color: #360836;
 
   margin-left: -2rem;
   margin-right: -2rem;
@@ -186,8 +190,8 @@ summary {
 div#jessePhoto > img {
   width: 40%;
 
-  border: 0.15rem solid #5ce1e6;
-  background-color: #5ce1e6;
+  border: 0.15rem solid #c8c4bd;
+  background-color: #360836;
 
   margin-top: 3rem;
   margin-bottom: 0.538rem;
@@ -198,8 +202,8 @@ div#jessePhoto > img {
 
 div#alannaPhoto > img {
   width: 34%;
-  border: 0.15rem solid #5ce1e6;
-  background-color: #5ce1e6;
+  border: 0.15rem solid #c8c4bd;
+  background-color: #360836;
 
   margin-top: 3rem;
   margin-bottom: 1rem;
@@ -245,6 +249,7 @@ div > p.col-xs#alannaTestimonial {
 }
 
 .claireRow {
+  margin-top: 0.15rem;
   margin-left: -2rem;
   margin-right: -2rem;
   background-color: #202124;
@@ -425,8 +430,9 @@ a#resumeFile:hover {
   text-decoration: none !important;
 }
 
-.linkTreeText {
-  color: #000;
+.linkTreeIcon {
+  margin: 0 auto;
+  width: 4rem;
 }
 
 #bizEmail {
