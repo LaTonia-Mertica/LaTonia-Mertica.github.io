@@ -388,6 +388,10 @@ p#resume > button#resumeBtn > a {
   padding: 0.25rem;
   border-radius: 50%;
   border: #5ce1e6 solid 0.15rem;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .notbold {
