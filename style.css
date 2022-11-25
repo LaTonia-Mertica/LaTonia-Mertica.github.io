@@ -265,6 +265,7 @@ div > p.col-xs#alannaTestimonial {
   text-align: justify;
   margin-left: 3rem;
   margin-right: 3rem;
+  padding-bottom: 15px;
 }
 
 #clairePhoto {
@@ -500,6 +501,14 @@ a#resumeFile:hover {
     visibility: none;
   }
 }
+@media only screen and (max-width: 767px) {
+  #lmPhoto {
+    visibility: hidden;
+  }
+  .firstFirstNameRow {
+    margin-top: -90px;
+  }
+}
 @media only screen and (max-width: 765px) {
   div.row.row1.featureRow,
   div.row.row2.featureRow {
@@ -620,7 +629,7 @@ a#resumeFile:hover {
   #clairePhoto {
     margin-top: 5px;
   }
-  #claireTestimonial {
-    margin-bottom: 15px;
+  .firstFirstNameRow {
+    margin-top: -70px;
   }
 }
