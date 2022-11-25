@@ -584,6 +584,16 @@ a#resumeFile:hover {
   }
 }
 @media only screen and (max-width: 500px) {
+  #name-title {
+    margin-top: -87px;
+  }
+  .featureContainer,
+  .projectDropdownVisibility {
+    visibility: hidden;
+  }
+  .featureContainer {
+    margin-top: -200px;
+  }
   p#credits {
     visibility: hidden;
   }
@@ -591,8 +601,8 @@ a#resumeFile:hover {
     visibility: hidden;
   }
   div#trelloBoardScan {
-    margin-top: -24px;
-    margin-bottom: -84px;
+    margin-top: -64px;
+    margin-bottom: -64px;
   }
   div.center.moreSocials {
     visibility: hidden;
@@ -600,7 +610,13 @@ a#resumeFile:hover {
   h2.credits {
     visibility: hidden;
   }
+  .claireRow {
+    margin-top: 0.15px;
+  }
   #clairePhoto {
-    margin-top: 15px;
+    margin-top: 5px;
+  }
+  #claireTestimonial {
+    margin-bottom: 15px;
   }
 }
