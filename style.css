@@ -115,7 +115,7 @@ a {
 .fullWidth {
   width: 100%;
   border-radius: 0.313rem;
-  border: solid 0.094rem #5ce1e6;
+  /* border: solid 0.094rem #5ce1e6; */
   background-color: #2b2d2f;
 }
 
@@ -124,7 +124,7 @@ a {
 }
 
 .cardStyling {
-  border: solid 0.072rem #5ce1e6;
+  /* border: solid 0.072rem #5ce1e6; */
   padding: 0.938rem;
   margin-left: 0.938rem;
   margin-right: 0.938rem;
@@ -174,11 +174,6 @@ p.featureTitles > a:hover {
   border: none;
 }
 
-.centerFeatureText,
-p.centerFeatureText {
-  text-align: center;
-}
-
 summary {
   color: #fff;
   cursor: pointer;
@@ -205,7 +200,7 @@ div#jessePhoto > img {
   width: 40%;
 
   border: 0.15rem solid #c8c4bd;
-  background-color: #360836;
+  background-color: #ffffff;
 
   margin-top: 3rem;
   margin-bottom: 0.538rem;
@@ -217,7 +212,7 @@ div#jessePhoto > img {
 div#alannaPhoto > img {
   width: 34%;
   border: 0.15rem solid #c8c4bd;
-  background-color: #360836;
+  background-color: #ffffff;
 
   margin-top: 3rem;
   margin-bottom: 1rem;
@@ -614,8 +609,7 @@ a#resumeFile:hover {
   #name-title {
     margin-top: -87px;
   }
-  .featureContainer,
-  .projectDropdownVisibility {
+  .featureContainer {
     visibility: hidden;
   }
   .featureContainer {
