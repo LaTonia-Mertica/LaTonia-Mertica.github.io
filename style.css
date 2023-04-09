@@ -115,7 +115,6 @@ a {
 .fullWidth {
   width: 100%;
   border-radius: 0.313rem;
-  /* border: solid 0.094rem #5ce1e6; */
   background-color: #2b2d2f;
 }
 
@@ -124,7 +123,6 @@ a {
 }
 
 .cardStyling {
-  /* border: solid 0.072rem #5ce1e6; */
   padding: 0.938rem;
   margin-left: 0.938rem;
   margin-right: 0.938rem;
@@ -200,7 +198,7 @@ div#jessePhoto > img {
   width: 40%;
 
   border: 0.15rem solid #c8c4bd;
-  background-color: #ffffff;
+  background-color: #fff;
 
   margin-top: 3rem;
   margin-bottom: 0.538rem;
@@ -212,7 +210,7 @@ div#jessePhoto > img {
 div#alannaPhoto > img {
   width: 34%;
   border: 0.15rem solid #c8c4bd;
-  background-color: #ffffff;
+  background-color: #fff;
 
   margin-top: 3rem;
   margin-bottom: 1rem;
